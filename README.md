@@ -19,3 +19,12 @@ This project was built with a focus on software quality and reliability:
 1. **Clone the repository**:
    ```bash
    git clone [https://github.com/Milannba23/Python-Crypto-API-Tracker.git](https://github.com/Milannba23/Python-Crypto-API-Tracker.git)
+
+   ---
+
+## 📸 Project Preview
+
+### Real-time Terminal Output
+Below is the live execution of the script showing how it fetches market data:
+
+![Crypto Tracker Demo](./screenshots/crypto-demo.png)
