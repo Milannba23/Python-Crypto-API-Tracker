@@ -1,4 +1,4 @@
-# 🪙 Python Crypto API Tracker v1.0
+#  Python Crypto API Tracker v1.0
 
 ## 📝 Description
 This is a professional Python-based cryptocurrency tracking tool that integrates with the **CoinGecko API**. It demonstrates core QA Engineering principles, including API lifecycle management, data validation, and robust error handling.
