@@ -1,21 +1,21 @@
-# Python Crypto API Tracker v1.0
+# 🪙 Python Crypto API Tracker v1.0
 
-## Description
+## 📝 Description
 This is a professional Python-based cryptocurrency tracking tool that integrates with the **CoinGecko API**. It demonstrates core QA Engineering principles, including API lifecycle management, data validation, and robust error handling.
 
-## Key Features
-- [cite_start]**Real-time Data Retrieval**: Fetches current prices for 10 major cryptocurrencies in EUR[cite: 36, 43].
-- [cite_start]**API Robustness**: Validates HTTP status codes (200 OK) before processing data[cite: 1, 15].
-- [cite_start]**Negative Testing**: Implements checks for invalid coin IDs to prevent application crashes[cite: 7, 15].
-- [cite_start]**Professional Error Handling**: Uses `try-except` blocks to manage network timeouts or server outages[cite: 8].
+## 🧪 QA Engineering & Testing Highlights
+This project was built with a focus on software quality and reliability:
+- **API Robustness**: Validates HTTP status codes (200 OK) before processing data to ensure the application doesn't process corrupted or empty responses.
+- **Data Integrity**: Implements type-checking (`isinstance`) to verify that the price data is a number before formatting, preventing runtime crashes.
+- **Negative Testing**: Includes logic to handle invalid coin IDs and empty JSON keys gracefully.
+- **Error Management**: Uses `try-except` blocks to manage network-level exceptions such as timeouts or DNS failures, simulating real-world instability handling.
 
-## Tech Stack
+## 🛠 Tech Stack
 - **Language**: Python 3.x
-- [cite_start]**Libraries**: `requests` (v2.31.0 or newer) [cite: 1, 19]
-- [cite_start]**API Source**: CoinGecko [cite: 2]
+- **Libraries**: `requests` (v2.31.0 or newer)
+- **API Source**: [CoinGecko API](https://www.coingecko.com/en/api)
 
-## Installation
-1. Clone the repository.
-2. Install dependencies:
+## ⚙️ Installation & Usage
+1. **Clone the repository**:
    
-   pip install -r requirements.txt
+   git clone [https://github.com/VASE_KORISNICKO_IME/Python-Crypto-API-Tracker.git](https://github.com/VASE_KORISNICKO_IME/Python-Crypto-API-Tracker.git)
